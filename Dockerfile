@@ -17,6 +17,5 @@ COPY --from=build-env /go/src/emailservice/template/ /app/template/
 
 COPY --from=build-env /go/src/emailservice/emailservice /app/
 
-EXPOSE 8080
 
 CMD ./emailservice
