@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Order Confirmation</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500" rel="stylesheet">
+    <style>
+        table, th, td {
+            text-align: left;
+        }
+    </style>
+</head>
+<style>
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+</style>
+<body>
+<h2>Your Order Confirmation</h2>
+<p>Thanks for shopping with us!<p>
+<h3>Order ID</h3>
+<p>#{{ .Order.OrderID }}</p>
+<h3>Shipping</h3>
+<p>#{{ .Order.ShippingTrackingID }}</p>
+<p>{{ .Order.ShippingCost.Units }}.{{ .Order.ShippingCost.Format .Order.ShippingCost.Nanos  }} {{ .Order.ShippingCost.CurrencyCode }}</p>
+<p>{{ .Order.ShippingAddress.StreetAddress }}, {{.Order.ShippingAddress.City}}, {{.Order.ShippingAddress.Country}} {{.Order.ShippingAddress.ZipCode}}</p>
+<h3>Items</h3>
+<table style="width:100%">
+    <tr>
+        <th>Item No.</th>
+        <th>Quantity</th>
+        <th>Price</th>
+    </tr>
+    {{range .Order.Items}}
+        <tr>
+            <td>#{{.Item.ProductID}}</td>
+            <td>{{.Item.Quantity}}</td>
+            <td>{{.Cost.Units }}.{{ .Cost.Format .Cost.Nanos }} {{ .Cost.CurrencyCode }}</td>
+        </tr>
+    {{end}}
+</table>
+</body>
+
+</html>
+
