@@ -19,6 +19,6 @@ func main() {
 		v1.POST("/send", ctrl.SendEmail)
 	}
 
-	router.Run(":80") // listen and serve on 0.0.0.0:8080
+	router.Run(":8080") // listen and serve on 0.0.0.0:8080
 
 }
