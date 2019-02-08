@@ -1,0 +1,79 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "QeKwBtN2df+j+4stw3bQJ6yO4EY=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "a7658810eb745c2f22927282dea478278103a897",
+			"revisionTime": "2019-01-25T02:09:43Z"
+		},
+		{
+			"checksumSHA1": "tBxmhWWb6s+36rX0p1h7K1e4phI=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "d27685e714cb0b9375e0c9d3ca3df5a6a4945a6c",
+			"revisionTime": "2019-01-25T18:28:39Z"
+		},
+		{
+			"checksumSHA1": "dwqR5FHzisG3RHUPwri18R2FbGg=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "d27685e714cb0b9375e0c9d3ca3df5a6a4945a6c",
+			"revisionTime": "2019-01-25T18:28:39Z"
+		},
+		{
+			"checksumSHA1": "Y8Vu2NT4c2ve963fedBxoJyiU6s=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "d27685e714cb0b9375e0c9d3ca3df5a6a4945a6c",
+			"revisionTime": "2019-01-25T18:28:39Z"
+		},
+		{
+			"checksumSHA1": "kejRUqZtLFaFguSYfwQxnsUPhOY=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "d27685e714cb0b9375e0c9d3ca3df5a6a4945a6c",
+			"revisionTime": "2019-01-25T18:28:39Z"
+		},
+		{
+			"checksumSHA1": "DB+/DpKJUO7dR+MyQVchJ+yyHoI=",
+			"path": "github.com/go-gomail/gomail",
+			"revision": "81ebce5c23dfd25c6c67194b37d3dd3f338c98b1",
+			"revisionTime": "2016-04-11T21:29:32Z"
+		},
+		{
+			"checksumSHA1": "Y2MOwzNZfl4NRNDbLCZa6sgx7O0=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "c823c79ea1570fb5ff454033735a8e68575d1d0f",
+			"revisionTime": "2019-02-05T22:20:52Z"
+		},
+		{
+			"checksumSHA1": "GiVgQkx5acnq+JZtYiuHPlhHoso=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "3fb116b820352b7f0c281308a4d6250c22d94e27",
+			"revisionTime": "2018-08-30T10:17:45Z"
+		},
+		{
+			"checksumSHA1": "d+bvoxH+h6eubId44VJjcyr05MU=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "ee1426cffec05e61aaf15dad53bac697c48546ed",
+			"revisionTime": "2019-01-28T21:31:24Z"
+		},
+		{
+			"checksumSHA1": "KRlS8eQZGK1oYVCOkIvcMDXabxk=",
+			"path": "github.com/urfave/cli",
+			"revision": "b67dcf995b6a7b7f14fad5fcb7cc5441b05e814b",
+			"revisionTime": "2018-10-29T21:32:00Z"
+		},
+		{
+			"checksumSHA1": "P/k5ZGf0lEBgpKgkwy++F7K1PSg=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+			"revisionTime": "2017-07-30T05:02:35Z"
+		},
+		{
+			"checksumSHA1": "QqDq2x8XOU7IoOR98Cx1eiV5QY8=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "51d6538a90f86fe93ac480b35f37b2be17fef232",
+			"revisionTime": "2018-11-15T11:05:04Z"
+		}
+	],
+	"rootPath": "emailservice"
+}
