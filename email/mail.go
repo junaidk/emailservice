@@ -2,7 +2,7 @@ package email
 
 import (
 	"crypto/tls"
-	"fmt"
+	"emailservice/utils"
 	"github.com/go-gomail/gomail"
 )
 
@@ -23,6 +23,8 @@ func NewSender(Username, Password string) Sender {
 }
 
 func (sender Sender) SendMail(Subject, bodyMessage, From, To string) {
+
+	utils.Info.Println("Trying sending message")
 	m := gomail.NewMessage()
 	m.SetHeader("From", From)
 	m.SetHeader("To", To)
@@ -33,8 +35,8 @@ func (sender Sender) SendMail(Subject, bodyMessage, From, To string) {
 	d.TLSConfig = &tls.Config{InsecureSkipVerify: true}
 	// Send the email
 	if err := d.DialAndSend(m); err != nil {
-		fmt.Println(err.Error())
+		utils.Info.Println(err.Error())
 	} else {
-		fmt.Sprintf("Email to %s successful", To)
+		utils.Info.Printf("Email to %s successful", To)
 	}
 }
