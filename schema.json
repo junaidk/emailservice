@@ -1,0 +1,54 @@
+{
+  "email": "abc@gmail.com",
+  "order": {
+    "order_id": "900000021",
+    "shipping_tracking_id": "7999888891",
+    "shipping_cost": {
+      "currency_code": "USD",
+      "units": 99,
+      "nanos": 100
+    },
+    "shipping_address": {
+      "street_address": "Model Town",
+      "city": "Lahore",
+      "state": "Punjab",
+      "country": "Pakistan",
+      "zip_code": "54000"
+    },
+    "items": [
+      {
+        "item": {
+          "product_id": "ABS3894723894",
+          "quantity": 100
+        },
+        "cost": {
+          "currency_code": "USD",
+          "units": 99,
+          "nanos": 6600000000
+        }
+      },
+      {
+        "item": {
+          "product_id": "LPO3894723894",
+          "quantity": 10
+        },
+        "cost": {
+          "currency_code": "USD",
+          "units": 99,
+          "nanos": 8700000000
+        }
+      },
+      {
+        "item": {
+          "product_id": "KKK3894723894",
+          "quantity": 90
+        },
+        "cost": {
+          "currency_code": "USD",
+          "units": 99,
+          "nanos": 7500000000
+        }
+      }
+    ]
+  }
+}
