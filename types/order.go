@@ -36,7 +36,7 @@ type Address struct {
 	City          string `json:"city"`
 	State         string `json:"state"`
 	Country       string `json:"country"`
-	ZipCode       string `json:"zip_code"`
+	ZipCode       int    `json:"zip_code"`
 }
 type CartItem struct {
 	ProductID string `json:"product_id"`
